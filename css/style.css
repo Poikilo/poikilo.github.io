@@ -470,7 +470,7 @@ article .container .row .video-container embed {
 article .container .row blockquote {
   font-style: italic;
   font-family: NanumSquareRound, "Georgia", serif;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 0 30px 15px;
   text-align: center;
 }
@@ -493,7 +493,7 @@ article .container .row .pullquote {
   margin: 1em 0 0.5em 1.5em;
   text-align: left;
   width: 45%;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 article .container .row .pullquote.left {
   float: left;
