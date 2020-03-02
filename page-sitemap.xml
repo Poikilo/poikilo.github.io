@@ -8,14 +8,14 @@
     </url>
     
     <url>
-        <loc>https://poikilo.github.io/tags/</loc>
+        <loc>https://poikilo.github.io/categories/</loc>
         <lastmod>2020-02-28T00:45:28.079Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://poikilo.github.io/categories/</loc>
+        <loc>https://poikilo.github.io/tags/</loc>
         <lastmod>2020-02-28T00:45:28.079Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

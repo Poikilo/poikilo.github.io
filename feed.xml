@@ -66,9 +66,9 @@
     
     
     
-      <category term="atlassian" scheme="https://poikilo.github.io/tags/atlassian/"/>
-    
       <category term="jira" scheme="https://poikilo.github.io/tags/jira/"/>
+    
+      <category term="atlassian" scheme="https://poikilo.github.io/tags/atlassian/"/>
     
       <category term="issue" scheme="https://poikilo.github.io/tags/issue/"/>
     
