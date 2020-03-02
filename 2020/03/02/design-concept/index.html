@@ -7,7 +7,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="canonical" href="https://poikilo.github.io/archives/"/>
+    <link rel="canonical" href="https://poikilo.github.io/2020/03/02/design-concept/"/>
 
     <!--Description-->
 
@@ -24,7 +24,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="MMM"/>
+        <meta property="og:title" content="SOLID, KISS, YANGI"/>
     
 
     <!--Open Graph Description-->
@@ -37,7 +37,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -56,7 +56,7 @@
 
     <!-- Title -->
     
-    <title>아카이브 - MMM</title>
+    <title>SOLID, KISS, YANGI - MMM</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -172,127 +172,87 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('https://user-images.githubusercontent.com/61483036/75600527-9fa27b80-5af3-11ea-94a1-51f69a57f274.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>아카이브</h1>
+                <div class="post-heading">
+                    <h1>SOLID, KISS, YANGI</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2020-03-02
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/design/">#design</a> <a href="/tags/concept/">#concept</a> <a href="/tags/software/">#software</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/03/02/confluence-tip/">
-        <h1 class="post-title archive">
-            Confluence TIP
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2020/03/02/jira-tip/">
-        <h1 class="post-title archive">
-            JIRA Tip
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/version-control/">
-        <h1 class="post-title archive">
-            버전관리 도구
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/design-concept/">
-        <h1 class="post-title archive">
-            SOLID, KISS, YANGI
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/ci-server/">
-        <h1 class="post-title archive">
-            CI(Continuous Integration)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/02/27/kubernetes-1/">
-        <h1 class="post-title archive">
-            kubernetes#1 용어정리
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-02-27
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/02/26/first-post/">
-        <h1 class="post-title archive">
-            Github 블로그 생성
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-02-26
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="SOLID-객채지향-개발-5대-원리"><a href="#SOLID-객채지향-개발-5대-원리" class="headerlink" title="SOLID : 객채지향 개발 5대 원리."></a>SOLID : 객채지향 개발 5대 원리.</h2><ul>
+<li>SRP(Single Responsibility Principle : 단일 책임의 원칙)<br>작성된 클래스는 하나의 기능만을 가지며, 클래스가 제공하는 모든 서비스는 그 하나의 책임을 수행하는데 집중되어야 한다는 원칙.<br>어떤 변화에 의해 <strong>클래스를 변경해야 하는 이유는 오직 하나여야</strong> 함을 의미한다.</li>
+<li>OCP(Open Close Principle : 개방 폐쇄의 원칙)<br>소프트웨어 구성요소(컴포넌트, 클래스, 모듈, 함수)는 확장에는 열려있고, 변경에는 닫혀있어야 한다는 원칙이다.<br>요구사항의 변경이나 추가사항이 발생하더라도, <strong>기존 구성요소는 수정이 일어나지 말아</strong>야 하며, 기존 구성요소를 <strong>쉽게 확장하여 재사용</strong> 할 수 있어야 한다는 것.</li>
+<li>LSP(The Liskov Substitution Principle : 리스코브 치환의 원칙)<br>서브 타입은 언제나 기반타입으로 교체할 수 있어야 한다.(상속과 구현에 대한 내용)<br>서브 클래스가 확장에 대한 인터페이스를 준수해야 한다는 것을 의미한다.</li>
+<li>ISP(Interface Segration Principle : 인터페이스 분리의 원칙)<br>한 클래스는 자신이 사용하지 않는 인터페이스는 구현하지 말아야 한다는 원리이다. - 최소한의 인터페이스만을 사용한다.</li>
+<li>DIP(Dependency Inversion Principle : 의존성 역전의 원칙)<br>의존 관계의 역전이란, 구조적 디자인에서 발생하던 하위 레벨 모듈의 변경이 상위 레벨 모듈의 변경을 요구하는 위계관계를 끊는 의미의 역전이다.<br>실제 사용관계는 바뀌지 않으며, 추상을 매개로 메시지를 주고 받음으로써, 관계를 최대한 느슨하게 만드는 원칙이다.</li>
 </ul>
+<h2 id="KISS-Keep-It-Simple-Stupid"><a href="#KISS-Keep-It-Simple-Stupid" class="headerlink" title="KISS : Keep It Simple Stupid."></a>KISS : Keep It Simple Stupid.</h2><p>소프트웨어를 설계하는 작업이나, 코딩을 하는 행위에서 되도록이면 간단하고 단순하게 만드는 것이 좋다는 원리이다.(Simple is Best)<br>소스코드나 설계 내용이 불필요하게 장황하거나 복잡해지는 것을 경계하라는 원칙.</p>
+<h2 id="YANGI-You-Ain’t-Gonna-Need-It"><a href="#YANGI-You-Ain’t-Gonna-Need-It" class="headerlink" title="YANGI : You Ain’t Gonna Need It"></a>YANGI : You Ain’t Gonna Need It</h2><p>필요한 작업만을 하라는 의미이다.<br>프로그램을 작성하다보면, 현재는 사용하지 않지만, 확장성을 고려해 미리 작업하는 경우가 많다. :: 이런 행위를 하지말라는 원칙.<br>현재는 사용하지 않는 코드들을 작성하다 보면, 설계와 맞지 않거나 붎릴요하게 장황해지는 코드를 확인할 수 있다.<br>설계나 환경의 변경이 발생되었을 때, 찾기 어렵다. 수정사항도 많아진다…<br>실제 사용 여부를 판단할 수 없어, 전부를 고쳐야하는 상황이 벌어진다..<br>이런 경우를 피하기 위해 사용하지 않는 코드는 작성하지 말자는 원칙!</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>코멘트:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
@@ -362,7 +322,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
