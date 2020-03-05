@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <url>
+        <loc>https://poikilo.github.io/tags/google/</loc>
+        <lastmod>2020-03-05T12:06:56.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/promotion/</loc>
+        <lastmod>2020-03-05T12:06:56.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/premium/</loc>
+        <lastmod>2020-03-05T12:06:56.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/youtube/</loc>
+        <lastmod>2020-03-05T12:06:56.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/yaml/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/npm/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/node/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/gitkeep/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/gitlab/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/git/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/continuous-deploy/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/continuous-delivery/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/CD/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/deploy/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/deployment/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/api/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/kubernetes/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/rest/</loc>
+        <lastmod>2020-03-05T12:02:09.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/restful/</loc>
+        <lastmod>2020-03-05T12:02:09.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/software-version-control/</loc>
+        <lastmod>2020-03-02T21:46:28.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/VCS/</loc>
+        <lastmod>2020-03-02T21:46:28.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/tracker/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/issue/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/jira/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/begineer/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/blog/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/software/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/concept/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/design/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/confluence/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/wiki/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/atlassian/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/software-engineering/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/S-E/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/tags/CI/</loc>
+        <lastmod>2020-03-02T21:46:28.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->

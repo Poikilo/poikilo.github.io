@@ -7,7 +7,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="canonical" href="https://poikilo.github.io/archives/"/>
+    <link rel="canonical" href="https://poikilo.github.io/2020/03/03/yaml/"/>
 
     <!--Description-->
 
@@ -24,7 +24,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="MMM"/>
+        <meta property="og:title" content="yaml 기본 문법 정리"/>
     
 
     <!--Open Graph Description-->
@@ -37,7 +37,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -56,7 +56,7 @@
 
     <!-- Title -->
     
-    <title>아카이브 - MMM</title>
+    <title>yaml 기본 문법 정리 - MMM</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -175,168 +175,107 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('https://user-images.githubusercontent.com/61483036/75600527-9fa27b80-5af3-11ea-94a1-51f69a57f274.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>아카이브</h1>
+                <div class="post-heading">
+                    <h1>yaml 기본 문법 정리</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2020-03-03
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/yaml/">#yaml</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/03/05/daily-1/">
-        <h1 class="post-title archive">
-            Google Home Mini
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-05
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2020/03/03/deployment-strategy/">
-        <h1 class="post-title archive">
-            배포전략(Deployment Strategy)
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-03
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="기본-구조"><a href="#기본-구조" class="headerlink" title="기본 구조"></a>기본 구조</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">parent:</span><br><span class="line">  child-1: first_child</span><br><span class="line">  child-2:</span><br><span class="line">    grandchild-1: first grand child</span><br><span class="line">    grandchild-2: second grand child</span><br></pre></td></tr></table></figure>
+<p>같은 부모를 갖는 자식 노드들은 들여쓰기가 정확히 일치해야 한다.<br>다르면 Error !😂 (<strong>Tab 보다는 space를 활용하자.. vscode의 설정에도 space로 치환하는 것이 있다.</strong>)</p>
+<h2 id="노드"><a href="#노드" class="headerlink" title="노드"></a>노드</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; Type 1</span><br><span class="line">key: value</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Type 2</span><br><span class="line">key:</span><br><span class="line">  - child : 1</span><br><span class="line">    name: tom</span><br><span class="line">  - child : 2</span><br><span class="line">    name: john</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Type 3</span><br><span class="line">key:</span><br><span class="line">  child-1: tom</span><br><span class="line">  child-2: john</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th align="center">TYPE</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Type 1</td>
+<td>기본적인 스칼라 형태의 Key Value 선언</td>
+</tr>
+<tr>
+<td align="center">Type 2</td>
+<td>시퀀스로 이루어진 자식노드들, Array 형태</td>
+</tr>
+<tr>
+<td align="center">Type 3</td>
+<td>매핑으로 이루어진 자식노드들(순서를 보장하지 않는다, Key 문자열로 정렬됨)</td>
+</tr>
+</tbody></table>
+<h2 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h2><p>주석은 # 문자로 시작하는 라인으로만 달 수 있다.<br>스칼라 값 옆에 inline 주석은 불가능하다.<br>작성할 시, 문자열로 취급된다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># this is valid comment</span><br><span class="line"></span><br><span class="line">key: value #this is invalid comment.</span><br></pre></td></tr></table></figure>
+
+<h2 id="anchors-alias"><a href="#anchors-alias" class="headerlink" title="anchors/ alias"></a>anchors/ alias</h2><p>반복되는 값들은 anchor와 alias를 통해 줄일 수 있다.  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">anchors:</span><br><span class="line">  # anchor 선언</span><br><span class="line">  first-anchor: &amp;first</span><br><span class="line">    name: tom</span><br><span class="line">    birth: 1999.10.18</span><br><span class="line">  second-anchor: &amp;second</span><br><span class="line">    name: john</span><br><span class="line">    birth: 1995.01.20</span><br><span class="line"></span><br><span class="line">first-child: *first</span><br><span class="line">second-child: *second</span><br></pre></td></tr></table></figure>
+<p>위 코드 처럼 작성하면, first-child key를 통해 first-anchor의 자식노드에 접근 할 수 있다.<br>first-child.name<br>first-child.birth<br>😒😒😒</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/2020/03/03/RESTful-api/">
-        <h1 class="post-title archive">
-            RESTful API
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-03
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>코멘트:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
             
-                <div class="post-preview">
-    <a href="/2020/03/03/gitkeep-cleaner/">
-        <h1 class="post-title archive">
-            Git 저장소 empty 폴더 관리
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-03
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/03/yaml/">
-        <h1 class="post-title archive">
-            yaml 기본 문법 정리
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-03
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/03/node-kubernetes-client/">
-        <h1 class="post-title archive">
-            node-kubernetes-client
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-03
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/confluence-tip/">
-        <h1 class="post-title archive">
-            Confluence TIP
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/jira-tip/">
-        <h1 class="post-title archive">
-            JIRA Tip
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/version-control/">
-        <h1 class="post-title archive">
-            버전관리 도구
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2020/03/02/design-concept/">
-        <h1 class="post-title archive">
-            SOLID, KISS, YANGI
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2020-03-02
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-        <li class="next"><a href="/archives/page/2/">이전글  &rarr;</a></li>
-    
-</ul>
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
@@ -406,7 +345,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>

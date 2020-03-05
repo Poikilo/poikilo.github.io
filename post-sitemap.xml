@@ -8,6 +8,54 @@
     </url>
 
     <url>
+        <loc>https://poikilo.github.io/2020/03/05/daily-1/</loc>
+        <lastmod>2020-03-05T12:06:56.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/2020/03/03/deployment-strategy/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/2020/03/03/gitkeep-cleaner/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/2020/03/03/node-kubernetes-client/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/2020/03/03/yaml/</loc>
+        <lastmod>2020-03-05T12:02:09.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://poikilo.github.io/2020/03/03/RESTful-api/</loc>
+        <lastmod>2020-03-05T12:02:09.197Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://poikilo.github.io/2020/02/27/kubernetes-1/</loc>
         <lastmod>2020-03-02T21:46:28.916Z</lastmod>
         <changefreq>weekly</changefreq>
